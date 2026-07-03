@@ -3,7 +3,7 @@ import http from "node:http"
 import path from "node:path"
 
 const PORT = Number(process.env.PORT ?? 3000)
-const HOST = process.env.HOSTNAME ?? "0.0.0.0"
+const HOST = "0.0.0.0"
 const ROOT = path.join(import.meta.dirname, "public")
 
 const CONTENT_TYPES = {
