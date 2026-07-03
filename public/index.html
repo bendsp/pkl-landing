@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PKL — Your AI conversations, saved for good.</title>
+    <meta
+      name="description"
+      content="PKL is a desktop app that saves, tags, and searches your AI conversations. Stop losing your best prompts in a chat sidebar."
+    />
+    <link rel="icon" href="https://app.pkl.desprets.net/icon-dark-32x32.png" />
+    <meta property="og:title" content="PKL — Your AI conversations, saved for good." />
+    <meta
+      property="og:description"
+      content="A desktop knowledge library for ChatGPT and Claude conversations. Save, tag, search, reuse."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="top">
+      <span class="wordmark">PKL<span class="cursor">_</span></span>
+      <nav>
+        <a class="quiet" href="https://app.pkl.desprets.net">open web app →</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="kicker reveal" style="--d: 0">// a desktop library for your AI conversations</p>
+        <h1 class="reveal" style="--d: 1">
+          Your AI conversations,<br />
+          <em><mark>saved for good.</mark></em>
+        </h1>
+        <p class="sub reveal" style="--d: 2">
+          The prompt that finally worked. The answer you'll need again in March.
+          Right now they're rotting in a chat sidebar. PKL saves, tags, and
+          searches every conversation — ChatGPT, Claude, wherever.
+        </p>
+
+        <div class="cta reveal" style="--d: 3">
+          <a class="button" href="https://app.pkl.desprets.net/api/download/mac-arm64" id="download">
+            Download for macOS
+          </a>
+          <p class="cta-note">
+            Free during beta · macOS 13+ · Apple&nbsp;Silicon
+            <span class="sep">·</span>
+            <a class="quiet" href="https://app.pkl.desprets.net/api/download/mac-x64">Intel&nbsp;Mac?</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="window reveal" style="--d: 4" aria-hidden="true">
+        <div class="chrome">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="chrome-title">PKL</span>
+        </div>
+        <div class="app">
+          <aside class="rail">
+            <p class="rail-head">workspace</p>
+            <p class="rail-item active">Explore</p>
+            <p class="rail-item">Search</p>
+            <p class="rail-item">Tags</p>
+            <p class="rail-head">projects</p>
+            <p class="rail-item">Thesis</p>
+            <p class="rail-item">Client&nbsp;Alpha</p>
+          </aside>
+          <div class="pane">
+            <div class="searchbar">⌘F&nbsp; <span class="q">postgres migration</span></div>
+            <div class="row">
+              <p class="row-title">Zero-downtime <mark>postgres</mark> <mark>migration</mark> strategy</p>
+              <p class="row-meta">claude · <span class="chip">#infra</span> <span class="chip">#client-alpha</span></p>
+            </div>
+            <div class="row">
+              <p class="row-title">Drizzle <mark>migration</mark> rollback that actually worked</p>
+              <p class="row-meta">chatgpt · <span class="chip">#infra</span></p>
+            </div>
+            <div class="row dim">
+              <p class="row-title">Interview prep — systems design</p>
+              <p class="row-meta">claude · <span class="chip">#career</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <article class="feature">
+          <p class="num">01</p>
+          <h2>Paste it, or just drop the share link.</h2>
+          <p>
+            ChatGPT share links import whole conversations, formatted. Or paste
+            anything. It lands in your library in seconds, not in a screenshot
+            folder you'll never open.
+          </p>
+        </article>
+        <article class="feature">
+          <p class="num">02</p>
+          <h2>Projects, tags, and search that means it.</h2>
+          <p>
+            Personal and project scopes, tags per scope, invites for the people
+            you work with. Database-backed search with filters — not
+            scroll-and-pray.
+          </p>
+        </article>
+        <article class="feature">
+          <p class="num">03</p>
+          <h2>Desktop-fast. Opens on what you saw last.</h2>
+          <p>
+            Your library is cached on your machine: instant launch, last-known
+            data always there, sync in the background. Sign-in happens in your
+            browser — passkeys and all.
+          </p>
+        </article>
+      </section>
+
+      <section class="closer">
+        <h2 class="reveal-scroll">
+          Stop losing your <em><mark>best work</mark></em> to a scrollbar.
+        </h2>
+        <a class="button" href="https://app.pkl.desprets.net/api/download/mac-arm64">
+          Download for macOS
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="foot-grid">
+        <div>
+          <p class="foot-head">downloads</p>
+          <a href="https://app.pkl.desprets.net/api/download/mac-arm64">macOS — Apple Silicon</a>
+          <a href="https://app.pkl.desprets.net/api/download/mac-x64">macOS — Intel</a>
+          <p class="soon">Windows — soon</p>
+        </div>
+        <div>
+          <p class="foot-head">elsewhere</p>
+          <a href="https://app.pkl.desprets.net">web app</a>
+          <a href="https://github.com/bendsp/pkl-releases/releases">release notes</a>
+          <a href="mailto:benjy.desprets@gmail.com">support</a>
+        </div>
+        <div class="foot-note">
+          <p>Your data lives in your account, not in anyone's training set.</p>
+          <p>© Ben Desprets</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Scroll reveal for the closer line.
+      const el = document.querySelector(".reveal-scroll");
+      if (el && "IntersectionObserver" in window) {
+        new IntersectionObserver(
+          (entries, obs) =>
+            entries.forEach((e) => {
+              if (e.isIntersecting) {
+                e.target.classList.add("in");
+                obs.disconnect();
+              }
+            }),
+          { threshold: 0.6 }
+        ).observe(el);
+      } else if (el) {
+        el.classList.add("in");
+      }
+    </script>
+  </body>
+</html>
